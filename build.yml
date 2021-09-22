@@ -5,8 +5,8 @@ on:
       - '.txt'
       - '*.MD'
       - '*.md'
-      - 'LICENSE'
       - 'docs/**'
+      - 'LICENSE'
   push:
     branches:
       - develop
