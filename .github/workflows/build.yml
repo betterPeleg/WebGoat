@@ -9,9 +9,9 @@ on:
       - 'docs/**'
   push:
     branches:
-      - master
       - develop
       - release/*
+      - master
     tags-ignore:
       - '*'
     paths-ignore:
