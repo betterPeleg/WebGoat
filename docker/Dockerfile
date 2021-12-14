@@ -1,4 +1,4 @@
-FROM openjdk:16-slim
+FROM openjdk:16-slim@sha256:5e30ca58b3a57274d10066db652e53a452c446b1509514aa2f59dbe6979841f9
 
 ARG webgoat_version=8.2.1-SNAPSHOT
 ENV webgoat_version_env=${webgoat_version}
