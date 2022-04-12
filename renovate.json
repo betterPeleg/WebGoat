@@ -6,8 +6,8 @@
   "dependencyDashboard": true,
   "groupName": "*spring*",
   {
-  "kubernetes": {
-    "fileMatch": ["^config/.*\\.yaml$"]
+  "helmfile": {
+    "fileMatch": ["^helm.yaml$"]
   }
 }
 }
