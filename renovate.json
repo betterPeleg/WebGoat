@@ -17,5 +17,8 @@
 	},
 	"terraform": {
 		"fileMatch": ["tf$"]
+	},
+	"docker": {
+		"fileMatch": ["^dockerfile"]
 	}
 }
