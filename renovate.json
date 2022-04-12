@@ -9,7 +9,7 @@
 		"matchPackageNames": ["spring"],
 		"groupName": "mySpringUpdates"
 	}],
-	"helm": {
+	"helmfile": {
 		"fileMatch": ["^helm"]
 	}
 }
