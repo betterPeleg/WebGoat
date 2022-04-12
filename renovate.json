@@ -4,9 +4,5 @@
   ],
   "includeForks": true,
   "dependencyDashboard": true,
-  "groupName": "*spring*",
-  {"helmfile":  {
-    "fileMatch": ["^helm.yaml$"]
-    }
-  }
+  "groupName": "spring*",
 }
