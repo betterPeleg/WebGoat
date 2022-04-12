@@ -13,7 +13,7 @@
 		"fileMatch": ["^helm"]
 	},
 	"kubernetes": {
-		"fileMatch": ["^nginx/.yaml$"]
+		"fileMatch": ["^nginx"]
 	},
 	"terraform": {
 		"fileMatch": ["tf$"]
