@@ -3,5 +3,6 @@
     "config:base"
   ],
   "includeForks": true,
-  "dependencyDashboard": true
+  "dependencyDashboard": true,
+  "groupName": "*spring*"
 }
