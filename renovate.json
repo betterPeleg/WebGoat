@@ -11,5 +11,11 @@
 	}],
 	"helmfile": {
 		"fileMatch": ["^helm"]
+	},
+	"kubernetes": {
+		"fileMatch": ["yaml$"]
+	},
+	"terraform": {
+		"fileMatch": ["tf$"]
 	}
 }
