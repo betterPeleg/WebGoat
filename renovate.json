@@ -4,5 +4,7 @@
   ],
   "includeForks": true,
   "dependencyDashboard": true,
-  "groupName": "spring*"
+  "packageRules" : [
+    {"matchPackageNames": ["spring"],
+     "groupName": "mySpringUpdates"}]
 }
