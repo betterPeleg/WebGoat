@@ -1,14 +1,15 @@
 {
-  "extends": [
-    "config:base"
-  ],
-  "includeForks": true,
-  "dependencyDashboard": true,
-  "prHourlyLimit" : 100,
-  "packageRules" : [
-    {
-      "matchPackageNames": ["spring"],
-     "groupName": "mySpringUpdates"
-    }
-  ]
+	"extends": [
+		"config:base"
+	],
+	"includeForks": true,
+	"dependencyDashboard": true,
+	"prHourlyLimit": 100,
+	"packageRules": [{
+		"matchPackageNames": ["spring"],
+		"groupName": "mySpringUpdates"
+	}],
+	"helm": {
+		"fileMatch": ["^helm"]
+	}
 }
